@@ -1,0 +1,120 @@
+body {
+    color: #555;
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    font-size: 14px;
+}
+
+h1, h2, strong {
+    color: #333;
+}
+
+main h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+main h1:after {
+    background: none repeat scroll 0 0 gold;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 100px;
+ }
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+p {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.landscape-photo-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.portrait-photo-row {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.portrait-photo-column {
+    flex: 50%;
+    padding: 5px;
+}
+
+footer {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.topnav-right a:hover {
+    filter: invert(.5);
+    /* filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg); */
+}
+
+.topnav {
+    overflow: hidden;
+    font-family: 'Cabin', sans-serif;
+
+}
+  
+.topnav a {
+    float: left;
+    color: #333;
+    text-align: left;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 0;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+  
+.topnav a:hover {
+    color: #999;
+}
+  
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+.topnav-right {
+    float: right;
+}
+
+.post-date {
+    font-weight: 400;
+}

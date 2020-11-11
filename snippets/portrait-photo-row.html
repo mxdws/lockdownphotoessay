@@ -1,0 +1,8 @@
+<div class="portrait-photo-row">
+{% for s in snippetContent %}
+    <div class="portrait-photo-column">
+        <img src="{{ s['imgSource'] }}" alt="{{ s['imgDesc'] }}">
+        <p>{{ s['imgDesc'] }}</p>
+    </div>
+{% endfor %}
+</div>
