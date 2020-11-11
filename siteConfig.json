@@ -1,0 +1,125 @@
+{
+    "outputFolder": "site",
+    "templatesFolder": "templates",
+    "templateFile": "page.html",
+    "snippetsFolder": "snippets",
+    "assets": {
+        "assetsFolder": "assets",
+        "foldersToCopy": ["css","svg"],
+        "imagesFolder": "img"
+    },
+    "author": "Martin Dawson",
+    "social": {
+        "twitter": "mdaws100",
+        "github": "mxdws",
+        "instagram": "martindawson_photography"
+    },
+    "pageManifest": {
+        "pageData": {
+            "title": "Lockdown in Chintown",
+            "description": "The UK is in a second national lockdown, but what does that mean for one of the busiest areas in London?"
+        },
+        "pageContent": [
+            {
+                "blockType": "heading-1",
+                "blockContent": "Lockdown in ChinaTown"
+            },
+            {
+                "blockType": "heading-4",
+                "blockContent": "10th November 2020"
+            },
+            {
+                "blockType": "heading-2",
+                "blockContent": "A Photo Essay by Martin Dawson"
+            },
+            {
+                "blockType": "paragraph",
+                "blockContent": "It is November 2020 and the UK has just enforced a nationwide lockdown to combat the spread of the Covid-19 virus."
+            },
+            {
+                "blockType": "paragraph",
+                "blockContent": "The Chinatown area of Soho is usually one of the busiest areas of London, and the restaurants, cafes and shops that exist there rely on the many daily visitors to survive."
+            },
+            {
+                "blockType": "paragraph",
+                "blockContent": "What happens to these establishments in the current extreme environment?"
+            },
+            {
+                "blockType": "landscape-photo-row",
+                "blockContent": [
+                    {
+                        "imgSource": "/assets/img/est1.jpg",
+                        "imgDesc": "An empty Gerrard Street with just a few pigeons"
+                    }
+                ]
+            },
+            {
+                "blockType": "portrait-photo-row",
+                "blockContent": [
+                    {
+                        "imgSource": "/assets/img/por1.jpg",
+                        "imgDesc": "A shop owner smokes on the street, looking for customers"
+                    },
+                    {
+                        "imgSource": "/assets/img/rel1.jpg",
+                        "imgDesc": "Some restaurants take the opportunity to do some maintenance"
+                    }
+                ]
+            },
+            {
+                "blockType": "landscape-photo-row",
+                "blockContent": [
+                    {
+                        "imgSource": "/assets/img/est2.jpg",
+                        "imgDesc": "A restaurant remains open, hoping for trade"
+                    }
+                ]
+            },
+            {
+                "blockType": "portrait-photo-row",
+                "blockContent": [
+                    {
+                        "imgSource": "/assets/img/det1.jpg",
+                        "imgDesc": "The food on offer"
+                    },
+                    {
+                        "imgSource": "/assets/img/dec1.jpg",
+                        "imgDesc": "There are some customers who are still getting food to take away"
+                    }
+                ]
+            },
+            {
+                "blockType": "landscape-photo-row",
+                "blockContent": [
+                    {
+                        "imgSource": "/assets/img/por2.jpg",
+                        "imgDesc": "One man in a square that is usually bustling"
+                    }
+                ]
+            },
+            {
+                "blockType": "portrait-photo-row",
+                "blockContent": [
+                    {
+                        "imgSource": "/assets/img/por3.jpg",
+                        "imgDesc": "Taking delivery of stock"
+                    },
+                    {
+                        "imgSource": "/assets/img/rel2.jpg",
+                        "imgDesc": "The bakery still receiving visitors"
+                    }
+                ]
+            },
+            {
+                "blockType": "landscape-photo-row",
+                "blockContent": [
+                    {
+                        "imgSource": "/assets/img/dec2.jpg",
+                        "imgDesc": "The second lockdown may be too much for some"
+                    }
+                ]
+            }
+        ]
+    }
+
+}
